@@ -1,0 +1,9 @@
+.move {
+    animation: move forwards 3s;
+}
+
+@keyframes move {
+    50% {
+        transform: translateY(-2rem);
+    }
+}
